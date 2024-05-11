@@ -1,7 +1,8 @@
-##CYBERSPARK ctf 
+## CYBERSPARK 
+
 I solved couple of crypto tasks and here are the writeups
 
-#BIGRSA -495pts-
+# BIGRSA -495pts-
 ![Screenshot 2024-05-11 185721](https://github.com/STORTNY/ctfs/assets/78549378/18a04eaf-2fb3-418b-a6ab-f94a754e6c73)
 
 
@@ -46,7 +47,7 @@ print(long_to_bytes(m).decode())
 ```
 flag: `Spark{RSA_Genius?!!!}`
 
-#Kinda EZ RSA -436pts-
+# Kinda EZ RSA -436pts-
 ![Screenshot 2024-05-11 185638](https://github.com/STORTNY/ctfs/assets/78549378/3908a699-7489-4424-a59f-7f5072f0974b)
 
 ``
@@ -78,7 +79,7 @@ else:
 ```
 flag=`Spark{ab4b5f8a879411e556590886f28090fa990aaa0f}`
 
-#RSA101 -449pts-
+# RSA101 -449pts-
 ![Screenshot 2024-05-11 185659](https://github.com/STORTNY/ctfs/assets/78549378/430a7cbf-5571-4460-bd4a-4f7785d79e92)
 
 
@@ -121,7 +122,7 @@ print(long_to_bytes(m).decode())
 ```
  flag=`Spark{N0t_Y0Ur_R3GUL4R_T0Ti3Nt}`
 
-#SUDO -500pts- 
+# SUDO -500pts- 
 ![image](https://github.com/STORTNY/ctfs/assets/78549378/988776c4-2769-4fd7-a6d6-0a4ec8fdb61d)
 
 I was surprised this task had only 2 solves, would've been so easy if u just knew how rsa works
