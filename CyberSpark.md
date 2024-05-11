@@ -125,11 +125,13 @@ print(long_to_bytes(m).decode())
 # SUDO -500pts- 
 ![image](https://github.com/STORTNY/ctfs/assets/78549378/988776c4-2769-4fd7-a6d6-0a4ec8fdb61d)
 
-I was surprised this task had only 2 solves, would've been so easy if u just knew how rsa works
+I was surprised this task had only 2 solves, would've been so easy if u just knew how rsa works.
+
 so the cipher text istelf is equal to m^e mod n
 if the e is too small like 3 in our case, we can take the e'th root of c , or if m^e > N, we can keep adding the modulus n until we get to the correct value of m which is the cube.root(c+k*n)
 
-for this chall I did brute force it in a range of 20 andi got the flag 
+for this chall I did brute force it in a range of 20 and I got the flag .
+
 solver : 
 ```python
 from Crypto.Util.number import  long_to_bytes
