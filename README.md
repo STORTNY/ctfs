@@ -24,7 +24,7 @@ print(f"c = {c}")
 print(f"phi = {phi}")
 ```
 
-so given n, c, and phi we still need to calculate the private key d , the trick here is that the public exponent is loo large to be computed as it is, but what we do know that e=d^-1 mod phi, so obv it can't be larger than phi.
+so given n, c and phi we still need to calculate the private key d , the trick here is that the public exponent is loo large to be computed as it is, but what we do know that e=d^-1 mod phi, so obv it can't be larger than phi.
 And for our computers to calculate properly we have to calculate the main exponent in one pow() function like so 
 ```python
 e = 65537
